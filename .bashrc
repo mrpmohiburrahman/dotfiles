@@ -115,3 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+#user defined
+#eval ``keychain --eval --agents ssh id_rsa # for ssh key eval, github.com
