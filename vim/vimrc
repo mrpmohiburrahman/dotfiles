@@ -38,3 +38,5 @@ let g:ycm_global_ycm_extra_conf = '/home/p/bin/dotfiles/vim/bundle/.ycm_extra_co
 "key remap
 nnoremap ; :
 "n means in normal mode 
+"au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+"au VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'

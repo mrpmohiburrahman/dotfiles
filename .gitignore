@@ -1,5 +1,4 @@
-
-# Created by https://www.gitignore.io/api/vim
+reated by https://www.gitignore.io/api/vim
 # Edit at https://www.gitignore.io/?templates=vim
 
 ### Vim ###
@@ -28,3 +27,5 @@ tags
 .vim
 
 # End of https://www.gitignore.io/api/vim
+
+
