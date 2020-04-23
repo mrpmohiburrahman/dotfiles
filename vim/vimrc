@@ -35,4 +35,6 @@ let g:ycm_clangd_uses_ycmd_caching = 0
 let g:ycm_global_ycm_extra_conf = '/home/p/bin/dotfiles/vim/bundle/.ycm_extra_conf.py'
 
 "let g:ycm_global_ycm_extra_conf = 
-"
+"key remap
+nnoremap ; :
+"n means in normal mode 
