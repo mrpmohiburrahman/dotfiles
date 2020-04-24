@@ -11,6 +11,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'preservim/nerdtree'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'ycm-core/YouCompleteMe'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -26,7 +27,7 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 " YouCompleteMe settings
-let g:ycm_clangd_binary_path="/usr/bin/clangd"
+let g:ycm_clangd_binary_path="/home/p/bin/dotfiles/vim/bundle/YouCompleteMe/third_party/ycmd/third_party/clangd/output/bin"
 " Let clangd fully control code completion
 let g:ycm_clangd_uses_ycmd_caching = 0
  " Use installed clangd, not YCM-bundled clangd which doesn't get updates.
