@@ -1,5 +1,11 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
+"Tabs
+set tabstop=4 		"width of tab character 
+set softtabstop=4	"Fine tunes the amount of white space to be added"
+set shiftwidth=4	"Determines the amount of whitespace to add in normal mode: shift+>> or shift + <<"
+set expandtab		"When this option is enabled, vi will use spaces instead of tabs"
+
+set nocompatible       	" be iMproved, required
+filetype off            " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
