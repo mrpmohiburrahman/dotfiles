@@ -55,4 +55,5 @@ nnoremap ; :
 "n means in normal mode 
 "au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 "au VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
-map <F9> :w<CR>:!g++ -std=c++11 -pipe -O2 -lm -s -fomit-frame-pointer -g  % && ./a.out <CR>
+inoremap <f9> <ESC>:w<CR>:!g++ -std=c++11 -pipe -O2 -lm -s -fomit-frame-pointer -g  % && ./a.out <CR>
+nnoremap <f9> <ESC>:w<CR>:!g++ -std=c++11 -pipe -O2 -lm -s -fomit-frame-pointer -g  % && ./a.out <CR>
