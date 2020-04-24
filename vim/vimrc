@@ -4,11 +4,15 @@ set softtabstop=4	"Fine tunes the amount of white space to be added"
 set shiftwidth=4	"Determines the amount of whitespace to add in normal mode: shift+>> or shift + <<"
 set expandtab		"When this option is enabled, vi will use spaces instead of tabs"
 
-set nocompatible       	" be iMproved, required
-filetype off            " required
+set number          "set line number"
+set autoindent      "set autoindent: doen't interfare with other indents"
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
+"For YouCompleteMe plugin
+set nocompatible    " be iMproved, required
+filetype off        " required
+
+set rtp+=~/.vim/bundle/Vundle.vim " set the runtime path to include Vundle and initialize"
+
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'preservim/nerdtree'
