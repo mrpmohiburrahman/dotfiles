@@ -1,11 +1,12 @@
 "Tabs
 set tabstop=4 		"width of tab character 
 set softtabstop=4	"Fine tunes the amount of white space to be added"
-set shiftwidth=4	"Determines the amount of whitespace to add in normal mode: shift+>> or shift + <<"
+set shiftwidth=4	"Determines the amount of whitespace to add in normal mode: shift+>> or shift + <<
 set expandtab		"When this option is enabled, vi will use spaces instead of tabs"
 
 set number          "set line number"
 set autoindent      "set autoindent: doen't interfare with other indents"
+set incsearch       "incremental searching: search as soon as the typing begins"
 
 "For YouCompleteMe plugin
 set nocompatible    " be iMproved, required
