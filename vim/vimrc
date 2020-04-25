@@ -22,6 +22,8 @@ Plugin 'preservim/nerdtree'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'morhetz/gruvbox'
+Plugin 'arcticicestudio/nord-vim'
+Plugin 'joshdick/onedark.vim'
 call vundle#end()            " required
 
 filetype plugin indent on    " required
@@ -38,9 +40,14 @@ filetype plugin indent on    " required
 
 "Syntax highlighting
 syntax enable
-let g:gruvbox_italic=1
-colorscheme gruvbox
+"colorscheme onedark
+"let g:lightline = {'colorscheme': 'onedark',}
+"let g:airline_theme='onedark'
+"let g:gruvbox_italic=1
+"colorscheme gruvbox
 set background=dark         "Setting dark mode"
+autocmd BufEnter * colorscheme gruvbox 
+autocmd BufEnter *.cpp colorscheme onedark 
 
 
 
