@@ -57,6 +57,7 @@ if (empty($TMUX))
   endif
 endif
 syntax enable
+let g:onedark_hide_endofbuffer=1
 colorscheme onedark
 "colorscheme gruvbox 
 "let g:lightline = {'colorscheme': 'onedark',}
