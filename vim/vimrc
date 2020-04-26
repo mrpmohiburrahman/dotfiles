@@ -24,6 +24,7 @@ Plugin 'ycm-core/YouCompleteMe'
 Plugin 'morhetz/gruvbox'
 Plugin 'arcticicestudio/nord-vim'
 Plugin 'joshdick/onedark.vim'
+Plugin 'sheerun/vim-polyglot'
 call vundle#end()            " required
 
 filetype plugin indent on    " required
