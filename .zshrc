@@ -97,3 +97,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Colorls ( you need to install Colorls to make work this section and
+# to show folder and file icon)
+alias ls="colorls"
+source $(dirname $(gem which colorls))/tab_complete.sh

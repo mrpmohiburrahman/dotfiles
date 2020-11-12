@@ -40,3 +40,13 @@
         1. `.\install.ps1`
         1. `Set-ExecutionPolicy Default`
         1. `fontFace": "DejaVu Sans Mono for Powerline`
+
+<!-- 
+install colorls for special folder and file view. add icon to make it more
+beautiful. icons a
+1. install [nerdfont](https://github.com/ryanoasis/nerd-fonts/blob/master/readme.md#option-4-homebrew-fonts)
+
+2. install colorls by following these [steps](https://github.com/athityakumar/colorls#installation)
+
+
+ -->
