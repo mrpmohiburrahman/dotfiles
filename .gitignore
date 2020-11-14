@@ -94,12 +94,12 @@ zsdoc/data
 
 
 
-vim/bundle/YouCompleteMe/
-vim/bundle/auto-pairs/
-vim/bundle/gruvbox/
-vim/bundle/lightline.vim/
-vim/bundle/nerdtree/
-vim/bundle/nord-vim/
-vim/bundle/onedark.vim/
-vim/bundle/vim-polyglot/
-vim/bundle/Vundle.vim/
+vim/bundle/YouCompleteMe/*
+vim/bundle/auto-pairs/*
+vim/bundle/gruvbox/*
+vim/bundle/lightline.vim/*
+vim/bundle/nerdtree/*
+vim/bundle/nord-vim/*
+vim/bundle/onedark.vim/*
+vim/bundle/vim-polyglot/*
+vim/bundle/Vundle.vim/*
