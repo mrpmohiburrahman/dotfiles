@@ -20,7 +20,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'preservim/nerdtree'
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'ycm-core/YouCompleteMe'
+" Plugin 'ycm-core/YouCompleteMe'
 Plugin 'morhetz/gruvbox'
 Plugin 'arcticicestudio/nord-vim'
 Plugin 'joshdick/onedark.vim'
@@ -94,10 +94,10 @@ colorscheme onedark
 
 
 " YouCompleteMe settings
-let g:ycm_clangd_binary_path="/home/p/bin/dotfiles/vim/bundle/YouCompleteMe/third_party/ycmd/third_party/clangd/output/bin"
-let g:ycm_clangd_uses_ycmd_caching = 0              "Let clangd fully control code completion"
+" let g:ycm_clangd_binary_path="$HOME/bin/dotfiles/vim/bundle/YouCompleteMe/third_party/ycmd/third_party/clangd/output/bin"
+" let g:ycm_clangd_uses_ycmd_caching = 0              "Let clangd fully control code completion"
 "let g:ycm_clangd_binary_path = exepath("clangd")   "Use installed clangd, not YCM-bundled clangd which doesn't get updates."
-let g:ycm_global_ycm_extra_conf = '/home/p/bin/dotfiles/vim/bundle/.ycm_extra_conf.py'
+" let g:ycm_global_ycm_extra_conf = '$HOME/bin/dotfiles/vim/bundle/.ycm_extra_conf.py'
 
 "key remap
 nnoremap ; :
