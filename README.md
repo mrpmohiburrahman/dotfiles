@@ -47,10 +47,6 @@ beautiful.
 
     1. install colorls by following these [steps](https://github.com/athityakumar/colorls#installation)
 
-
-
- <!-- 
- yarn-autocompletions
- 1. Donwload binayr from this [link](https://github.com/g-plane/zsh-yarn-autocompletions/releases)
- 2. Install it as shown [here](https://github.com/g-plane/zsh-yarn-autocompletions#add-as-a-zsh-plugin)
-  -->
+1. yarn-autocompletions
+    1. Donwload binary from this [link](https://github.com/g-plane/zsh-yarn-autocompletions/releases)
+    2. Install it as shown [here](https://github.com/g-plane/zsh-yarn-autocompletions#add-as-a-zsh-plugin)
