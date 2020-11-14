@@ -41,12 +41,16 @@
         1. `Set-ExecutionPolicy Default`
         1. `fontFace": "DejaVu Sans Mono for Powerline`
 
-<!-- 
-install colorls for special folder and file view. add icon to make it more
-beautiful. icons a
-1. install [nerdfont](https://github.com/ryanoasis/nerd-fonts/blob/master/readme.md#option-4-homebrew-fonts)
+1. install colorls for special folder and file view. add icon to make it more
+beautiful.
+    1. install nerdfonts [nerdfont](https://github.com/ryanoasis/nerd-fonts/blob/master/readme.md#option-4-homebrew-fonts)
 
-2. install colorls by following these [steps](https://github.com/athityakumar/colorls#installation)
+    1. install colorls by following these [steps](https://github.com/athityakumar/colorls#installation)
 
 
- -->
+
+ <!-- 
+ yarn-autocompletions
+ 1. Donwload binayr from this [link](https://github.com/g-plane/zsh-yarn-autocompletions/releases)
+ 2. Install it as shown [here](https://github.com/g-plane/zsh-yarn-autocompletions#add-as-a-zsh-plugin)
+  -->
