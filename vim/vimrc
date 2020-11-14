@@ -18,14 +18,14 @@ let g:vundle_default_git_proto = 'git'      "This option makes Vundle use git in
                                             "For example:Plugin 'sjl/gundo.vim' -> git@github.com:sjl/gundo.git
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'preservim/nerdtree'
-Plugin 'jiangmiao/auto-pairs'
+" Plugin 'preservim/nerdtree'
+" Plugin 'jiangmiao/auto-pairs'
 " Plugin 'ycm-core/YouCompleteMe'
 Plugin 'morhetz/gruvbox'
-Plugin 'arcticicestudio/nord-vim'
-Plugin 'joshdick/onedark.vim'
-Plugin 'sheerun/vim-polyglot'
-Plugin 'itchyny/lightline.vim'
+" Plugin 'arcticicestudio/nord-vim'
+" Plugin 'joshdick/onedark.vim'
+" Plugin 'sheerun/vim-polyglot'
+" Plugin 'itchyny/lightline.vim'
 call vundle#end()            " required
 
 filetype plugin indent on    " required
