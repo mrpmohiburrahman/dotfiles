@@ -45,9 +45,7 @@
 <br/>
 
 ### Colorls
-
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/filesAndFoldersIcons_compressed.gif?token=AINKGPOAN7EMJPHXSJSO6DC7XHJOC" width="300"/>
-<br/>
 
 1. Install colorls for special folder and file view. add icon to make it more
 beautiful.
