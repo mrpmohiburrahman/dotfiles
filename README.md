@@ -9,6 +9,15 @@
     1. `sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)`
 
 1. `ln -nfs ~/bin/dotfiles/.zshrc ~/.zshrc`
+
+### Custom ZSH Theme
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/prompt.gif?token=AINKGPJZHNQRK4FRCQURGQK7XHX2S" width="400"/>
+
+1. `ln -s ~/bin/dotfiles/ZSH_THEME/mrp.zsh-theme ~/.oh-my-zsh/custom/themes/mrp.zsh-theme`
+1. Apple icon and version control icon are collected from [nerd font icon set](https://www.nerdfonts.com/cheat-sheet)
+1. For Apple icon(shown in prompt), I have to direct copy paste it in [here](https://github.com/mrpmohiburrahman/dotfiles/blob/a2a0dd48bec7f2c17422a8fc3ca012f729c50192/ZSH_THEME/mrp.zsh-theme#L1) right after '%F{#46b5d1}' and '%F{#d16246}'.
+1. For version control icon, I have to put unicode escape sequence in [here](https://github.com/mrpmohiburrahman/dotfiles/blob/a2a0dd48bec7f2c17422a8fc3ca012f729c50192/ZSH_THEME/mrp.zsh-theme#L4) which is '\ue727'
+
 ### Vim
 
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/vim.gif?token=AINKGPPLA7GEABKFGDOKB5S7XHRSG" width="400"/>
