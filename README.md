@@ -2,6 +2,7 @@
     <img alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/final.gif?token=AINKGPKS64U5S3KAX4T62P27XICVS" width="600"/>
 </p>
 <p align="center">
+    <img alt="mac os" src="https://img.shields.io/badge/OS-macOS-informational?style=flat-square&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS"/>
     <img alt="terminal iterm2" src="https://img.shields.io/badge/Terminal-iterm2-informational?style=flat-square&logo=powershell&logoColor=white&color=2bbc8a"/>
     <img alt="shell zsh" src="https://img.shields.io/badge/shell-zsh-2bbc8a.svg?&style=flat-square&logo=gnu-bash&logoColor=white&color=2bbc8a"/>
     <img alt="framwork oh-my-zsh" src="https://img.shields.io/badge/Framework-Oh_My_Zsh-informational?style=flat-square&logo=powershell&logoColor=white&color=2bbc8a"/>
@@ -18,6 +19,7 @@
 * [Vim](#vim)
 * [Colorls](#colorls)
 * [yarn-autocompletions](#yarn-autocompletions)
+<br/>
 
 ## How to use
 
