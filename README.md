@@ -77,6 +77,10 @@ beautiful.
     1. Install nerdfonts [nerdfont](https://github.com/ryanoasis/nerd-fonts/blob/master/readme.md#option-4-homebrew-fonts)
     1. In iterm2, go to Profiles->Text->Non-ASCII Font->select 'Hack Nerd Font', 'regular', size 23 and select 'Use ligatures'(optional)
     1. Install colorls by following these [steps](https://github.com/athityakumar/colorls#installation)
+    1. Make alias in [.zshrc](https://github.com/mrpmohiburrahman/dotfiles/blob/0770fddc710ad13e1f562b74a8056a7270003d08/.zshrc#L105)`alias ls="colorls"`
+    1. Add tab completion to colorls in [.zshrc](https://github.com/mrpmohiburrahman/dotfiles/blob/0770fddc710ad13e1f562b74a8056a7270003d08/.zshrc#L106) `source $(dirname $(gem which colorls))/tab_complete.sh`
+    1. change the color of colorls output
+        1. `sudo ln -s ~/bin/dotfiles/config/colorls/dark_colors.yaml /Library/Ruby/Gems/2.6.0/gems/colorls-1.4.2/lib/yaml/dark_colors.yaml`
 
 <br/>
 <br/>
