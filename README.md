@@ -1,6 +1,5 @@
 <p align="center">
     <img alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/final.gif?token=AINKGPKS64U5S3KAX4T62P27XICVS" width="600"/>
-    
 </p>
 <p align="center">
     <img alt="terminal iterm2" src="https://img.shields.io/badge/Terminal-iterm2-informational?style=flat-square&logo=powershell&logoColor=white&color=2bbc8a"/>
@@ -11,7 +10,15 @@
     <img alt="c++ code" src="https://img.shields.io/badge/code-c++-blue.svg?style=flat-square&logo=c%2B%2B"/>
     <img alt="license" src="https://img.shields.io/github/license/Naereen/StrapDown.js.svg?style=flat-square"/>
 </p>
+<br/>
 
+## DotFiles
+* [How to use](#how-to-use)
+* [Custom ZSH Theme](#custom-zsh-theme)
+* [Vim](#vim)
+* [Colorls](#colorls)
+* [yarn-autocompletions](#yarn-autocompletions)
+yarn-autocompletions
 ## How to use
 
 To better version controlling, I have put all my dotfiles in '~/bin/' directory and create symbolic link to files from the dotfiles directory to the other files that are situated elsewhere. So you don't have to go to different folders every time when you want to edit different files. All you have to do is `cd ~/bin/dotfiles` and edit files there. That's it.
@@ -26,8 +33,9 @@ To better version controlling, I have put all my dotfiles in '~/bin/' directory 
     1. using wget `sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)`
 
 1. `ln -nfs ~/bin/dotfiles/.zshrc ~/.zshrc`
+<br/>
 
-### Custom ZSH Theme
+## Custom ZSH Theme
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/prompt.gif?token=AINKGPJZHNQRK4FRCQURGQK7XHX2S" width="400"/>
 
 1. `ln -s ~/bin/dotfiles/ZSH_THEME/mrp.zsh-theme ~/.oh-my-zsh/custom/themes/mrp.zsh-theme`
@@ -35,8 +43,9 @@ To better version controlling, I have put all my dotfiles in '~/bin/' directory 
 1. Apple icon and version control icon are collected from [nerd font icon set](https://www.nerdfonts.com/cheat-sheet)
 1. For Apple icon(shown in prompt), I have to direct copy paste it in [here](https://github.com/mrpmohiburrahman/dotfiles/blob/a2a0dd48bec7f2c17422a8fc3ca012f729c50192/ZSH_THEME/mrp.zsh-theme#L1) right after '%F{#46b5d1}' and '%F{#d16246}'.
 1. For version control icon, I have to put unicode escape sequence in [here](https://github.com/mrpmohiburrahman/dotfiles/blob/a2a0dd48bec7f2c17422a8fc3ca012f729c50192/ZSH_THEME/mrp.zsh-theme#L4) which is '\ue727'
+<br/>
 
-### Vim
+## Vim
 
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/vim.gif?token=AINKGPPLA7GEABKFGDOKB5S7XHRSG" width="400"/>
 
@@ -87,7 +96,7 @@ To better version controlling, I have put all my dotfiles in '~/bin/' directory 
 
 <br/>
 
-### Colorls
+## Colorls
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/filesAndFoldersIcons_compressed.gif?token=AINKGPOAN7EMJPHXSJSO6DC7XHJOC" width="400"/>
 
 1. Install colorls for special folder and file view. add icon to make it more
@@ -99,14 +108,10 @@ beautiful.
     1. Add tab completion to colorls in [.zshrc](https://github.com/mrpmohiburrahman/dotfiles/blob/0770fddc710ad13e1f562b74a8056a7270003d08/.zshrc#L106) `source $(dirname $(gem which colorls))/tab_complete.sh`
     1. change the color of colorls output
         1. `sudo ln -s ~/bin/dotfiles/config/colorls/dark_colors.yaml /Library/Ruby/Gems/2.6.0/gems/colorls-1.4.2/lib/yaml/dark_colors.yaml`
-
-<br/>
-<br/>
-<br/>
 <br/>
 <br/>
 
-### yarn-autocompletions
+## yarn-autocompletions
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/yarn_completion.gif?token=AINKGPJXZ3MPT5XJIAOWYIC7XHNKE" width="400"/>
 
 1. yarn-autocompletions
