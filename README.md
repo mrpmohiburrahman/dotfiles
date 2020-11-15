@@ -1,7 +1,16 @@
 <p align="center">
     <img alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/final.gif?token=AINKGPKS64U5S3KAX4T62P27XICVS" width="600"/>
+    
 </p>
-
+<p align="center">
+    <img alt="terminal iterm2" src="https://img.shields.io/badge/Terminal-iterm2-informational?style=flat-square&logo=powershell&logoColor=white&color=2bbc8a"/>
+    <img alt="shell zsh" src="https://img.shields.io/badge/shell-zsh-2bbc8a.svg?&style=flat-square&logo=gnu-bash&logoColor=white&color=2bbc8a"/>
+    <img alt="framwork oh-my-zsh" src="https://img.shields.io/badge/Framework-Oh_My_Zsh-informational?style=flat-square&logo=powershell&logoColor=white&color=2bbc8a"/>
+    <img alt="editor vim" src="https://img.shields.io/badge/editor-vim-informational?style=flat-square&logo=vim&logoColor=white&color=2bbc8a"/>
+    <img alt="c code" src="https://img.shields.io/badge/code-c-informational?style=flat-square&logo=c&logoColor=white&color=2bbc8a"/>
+    <img alt="c++ code" src="https://img.shields.io/badge/code-c++-blue.svg?style=flat-square&logo=c%2B%2B"/>
+    <img alt="license" src="https://img.shields.io/github/license/Naereen/StrapDown.js.svg?style=flat-square"/>
+</p>
 
 ## How to use
 
