@@ -1,4 +1,6 @@
-## Steps
+## How to use
+
+To better version controlling, I have put all my dotfiles in '~/bin/' directory and create symbolic link to files from the dotfiles directory to the other files that are situated elsewhere. So you don't have to go to different folders every time when you want to edit different files. All you have to do is `cd ~/bin/dotfiles` and edit files there. That's it.
 
 1. `mkdir -p ~/bin`
 1. `cd bin/`
@@ -72,7 +74,7 @@
 <br/>
 
 ### Colorls
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/filesAndFoldersIcons_compressed.gif?token=AINKGPOAN7EMJPHXSJSO6DC7XHJOC" width="300"/>
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/filesAndFoldersIcons_compressed.gif?token=AINKGPOAN7EMJPHXSJSO6DC7XHJOC" width="400"/>
 
 1. Install colorls for special folder and file view. add icon to make it more
 beautiful.
@@ -91,7 +93,7 @@ beautiful.
 <br/>
 
 ### yarn-autocompletions
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/yarn_completion.gif?token=AINKGPJXZ3MPT5XJIAOWYIC7XHNKE" width="300"/>
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/yarn_completion.gif?token=AINKGPJXZ3MPT5XJIAOWYIC7XHNKE" width="400"/>
 
 1. yarn-autocompletions
     1. Donwload binary from this [link](https://github.com/g-plane/zsh-yarn-autocompletions/releases)
