@@ -1,3 +1,8 @@
+<p align="center">
+    <img alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/final.gif?token=AINKGPKS64U5S3KAX4T62P27XICVS" width="600"/>
+</p>
+
+
 ## How to use
 
 To better version controlling, I have put all my dotfiles in '~/bin/' directory and create symbolic link to files from the dotfiles directory to the other files that are situated elsewhere. So you don't have to go to different folders every time when you want to edit different files. All you have to do is `cd ~/bin/dotfiles` and edit files there. That's it.
