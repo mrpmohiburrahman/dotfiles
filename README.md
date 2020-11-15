@@ -14,7 +14,7 @@
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/vim.gif?token=AINKGPPLA7GEABKFGDOKB5S7XHRSG" width="400"/>
 
 1. Create symbolic link
-    1.`ln -nfs ~/bin/dotfiles/vim/vimrc ~/.vimrc`
+    1. `ln -nfs ~/bin/dotfiles/vim/vimrc ~/.vimrc`
     1. `touch ~/.vim`
     1. `ln -nfs ~/bin/dotfiles/vim ~/.vim`
     
