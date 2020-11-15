@@ -53,6 +53,9 @@ beautiful.
     1. In iterm2, go to Profiles->Text->Non-ASCII Font->select 'Hack Nerd Font', 'regular', size 23 and select 'Use ligatures'(optional)
     1. Install colorls by following these [steps](https://github.com/athityakumar/colorls#installation)
 
+### yarn-autocompletions
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/yarn_completion.gif?token=AINKGPJXZ3MPT5XJIAOWYIC7XHNKE" width="300"/>
+
 1. yarn-autocompletions
     1. Donwload binary from this [link](https://github.com/g-plane/zsh-yarn-autocompletions/releases)
     2. Install it as shown [here](https://github.com/g-plane/zsh-yarn-autocompletions#add-as-a-zsh-plugin)
