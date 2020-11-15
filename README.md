@@ -9,12 +9,28 @@
     1. `sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)`
 
 1. `ln -nfs ~/bin/dotfiles/.zshrc ~/.zshrc`
-1. `ln -nfs ~/bin/dotfiles/vim/vimrc ~/.vimrc`
-1. `touch ~/.vim`
-1. `ln -nfs ~/bin/dotfiles/vim ~/.vim`
-1. `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+### Vim
+
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/vim.gif?token=AINKGPPLA7GEABKFGDOKB5S7XHRSG" width="400"/>
+
+1. Create symbolic link
+    1.`ln -nfs ~/bin/dotfiles/vim/vimrc ~/.vimrc`
+    1. `touch ~/.vim`
+    1. `ln -nfs ~/bin/dotfiles/vim ~/.vim`
+    
+1. Install Vundle `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+
+1. Add plugin in [here](https://github.com/mrpmohiburrahman/dotfiles/blob/2601e36c85c408b982ab6fcf7faf31bb15300651/vim/.vimrc#L19). This repo contains following vim plugins:
+    1. [preservim/nerdtree](https://github.com/preservim/nerdtree)
+    1. [jiangmiao/auto-pairs](https://github.com/jiangmiao/auto-pairs)
+    1. [morhetz/gruvbox](https://github.com/morhetz/gruvbox)
+    1. [arcticicestudio/nord-vim](https://github.com/arcticicestudio/nord-vim)
+    1. [joshdick/onedark.vim](https://github.com/joshdick/onedark.vim)
+    1. [sheerun/vim-polyglot](https://github.com/sheerun/vim-polyglot)
+    1. [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim)
 1. `vim ~/.vimrc`
-    1. `PluginInstall`
+1. `PluginInstall`
+<!--
     1. `sudo apt install build-essential cmake3 python3-dev`
     1. `cd ~/bin/dotfiles/vim/bundle/YouCompleteMe/`
     1. `git submodule update --init --recursive`
@@ -40,7 +56,7 @@
         1. `.\install.ps1`
         1. `Set-ExecutionPolicy Default`
         1. `fontFace": "DejaVu Sans Mono for Powerline`
-
+-->
 
 <br/>
 
