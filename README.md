@@ -53,6 +53,12 @@ beautiful.
     1. In iterm2, go to Profiles->Text->Non-ASCII Font->select 'Hack Nerd Font', 'regular', size 23 and select 'Use ligatures'(optional)
     1. Install colorls by following these [steps](https://github.com/athityakumar/colorls#installation)
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 ### yarn-autocompletions
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/yarn_completion.gif?token=AINKGPJXZ3MPT5XJIAOWYIC7XHNKE" width="300"/>
 
