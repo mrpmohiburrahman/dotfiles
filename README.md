@@ -41,11 +41,19 @@
         1. `Set-ExecutionPolicy Default`
         1. `fontFace": "DejaVu Sans Mono for Powerline`
 
-1. install colorls for special folder and file view. add icon to make it more
-beautiful.
-    1. install nerdfonts [nerdfont](https://github.com/ryanoasis/nerd-fonts/blob/master/readme.md#option-4-homebrew-fonts)
 
-    1. install colorls by following these [steps](https://github.com/athityakumar/colorls#installation)
+<br/>
+
+### Colorls
+
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/filesAndFoldersIcons_compressed.gif?token=AINKGPOAN7EMJPHXSJSO6DC7XHJOC" width="300"/>
+<br/>
+
+1. Install colorls for special folder and file view. add icon to make it more
+beautiful.
+    1. Install nerdfonts [nerdfont](https://github.com/ryanoasis/nerd-fonts/blob/master/readme.md#option-4-homebrew-fonts)
+    1. In iterm2, go to Profiles->Text->Non-ASCII Font->select 'Hack Nerd Font', 'regular', size 23 and select 'Use ligatures'(optional)
+    1. Install colorls by following these [steps](https://github.com/athityakumar/colorls#installation)
 
 1. yarn-autocompletions
     1. Donwload binary from this [link](https://github.com/g-plane/zsh-yarn-autocompletions/releases)
