@@ -4,9 +4,10 @@
 1. `cd bin/`
 1. `git clone git@github.com:MD-MRP/dotfiles.git`
 1. `ln -nfs ~/bin/dotfiles/.bashrc ~/.bashrc`
-1. *install oh-my-zsh*
-    1. `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh>`)"
-    1. `sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)`
+1. *install [oh-my-zsh](https://ohmyz.sh/#install)*
+    1. using curl `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh>)"`
+    or
+    1. using wget `sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)`
 
 1. `ln -nfs ~/bin/dotfiles/.zshrc ~/.zshrc`
 
@@ -14,6 +15,7 @@
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/mrpmohiburrahman/assets/main/dotFilesAssets/prompt.gif?token=AINKGPJZHNQRK4FRCQURGQK7XHX2S" width="400"/>
 
 1. `ln -s ~/bin/dotfiles/ZSH_THEME/mrp.zsh-theme ~/.oh-my-zsh/custom/themes/mrp.zsh-theme`
+1. set [ZSH_THEME="mrp"](https://github.com/mrpmohiburrahman/dotfiles/blob/6b9e3537c5f4851c2f61d92ed7e1a338d2cd068c/.zshrc#L11)
 1. Apple icon and version control icon are collected from [nerd font icon set](https://www.nerdfonts.com/cheat-sheet)
 1. For Apple icon(shown in prompt), I have to direct copy paste it in [here](https://github.com/mrpmohiburrahman/dotfiles/blob/a2a0dd48bec7f2c17422a8fc3ca012f729c50192/ZSH_THEME/mrp.zsh-theme#L1) right after '%F{#46b5d1}' and '%F{#d16246}'.
 1. For version control icon, I have to put unicode escape sequence in [here](https://github.com/mrpmohiburrahman/dotfiles/blob/a2a0dd48bec7f2c17422a8fc3ca012f729c50192/ZSH_THEME/mrp.zsh-theme#L4) which is '\ue727'
